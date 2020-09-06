@@ -3,6 +3,29 @@ $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 
+// the two new color's for the modal header and body 
+$header-color:#5133a5;
+$body-color:#d1c5e8;
+$title-color:white;
+
+
+//scss assignment portion
+.modal-header{
+    background-color: $header-color;
+    .modal-title{
+        color: $title-color;
+    }
+    .close{
+        color:$body-color;
+    }
+}
+.modal-body{
+    background-color: $body-color;
+}
+
+
+
+
 // Height variables
 $carousel-item-height: 300px;
 
